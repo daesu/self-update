@@ -1,0 +1,48 @@
+*.dll
+terraform.tfplan
+terraform.tfstate
+bin/
+modules-dev/
+/pkg/
+public/
+./*.tfstate
+.terraform/
+*.log
+*.bak
+*~
+.*.swp
+.idea
+*.iml
+*.test
+*.iml
+*.backup
+.vscode
+.jira.d
+
+#OS STUFF
+.DS_Store
+.tmp
+
+# VS code
+.vscode
+
+### Go ###
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+### Go Patch ###
+/vendor/
+/Godeps/
+/node_modules/
+
+
+### Data Seeding ###
+seed/seed.db
+seed/seed

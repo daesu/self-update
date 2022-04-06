@@ -1,0 +1,6 @@
+version: 1.0
+repo: daesu/self-update
+
+server:
+  host: "localhost"
+  port: 8080

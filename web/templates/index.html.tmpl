@@ -1,0 +1,14 @@
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title> Server {{.Version}} </title>
+</head>
+<body>
+<div>
+    <h1>This server is version {{.Version}}</h1>
+    <a href="check">Check for new version</a>
+    <br>
+    {{if .NewVersion}}New version is available: {{.NewVersion}} | <a href="install">Upgrade</a>{{end}}
+</div>
+</body>
+</html>
